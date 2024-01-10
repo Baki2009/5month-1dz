@@ -1,0 +1,26 @@
+from django.contrib import admin
+from .models import *
+
+# Register your models here.
+admin.site.register(Settings)
+admin.site.register(About)
+admin.site.register(Menu)
+admin.site.register(Settings2)
+admin.site.register(Settings3)
+admin.site.register(Settings4)
+admin.site.register(Settings5)
+admin.site.register(Shop)
+admin.site.register(Shop_Details)
+admin.site.register(Cart)
+admin.site.register(Wishlist)
+admin.site.register(Checkout)
+admin.site.register(Reservation)
+admin.site.register(FAQ)
+admin.site.register(Login)
+admin.site.register(Signup)
+admin.site.register(PNF)
+admin.site.register(Coming_Soon)
+admin.site.register(Terms_Conditions)
+admin.site.register(Blogs)
+admin.site.register(Blog_Details)
+admin.site.register(Contact)
